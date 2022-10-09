@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "question": "What is a Fragment",
+      "answer": "A UI component like Activity in Android."
+    },
+    {
+      "question": "What is Context",
+      "answer": "A interface in android that provides access to services, resources, and etc"
+    },
+    {
+      "question": "When to use Kotlin Extension Functions",
+      "answer": "Usually to add functionality to a class you dont have access to"
+    }
+  ]
+}

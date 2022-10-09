@@ -2,8 +2,10 @@ package com.ajones.todo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ajones.todo.ui.items.ItemsFragment
+import com.ajones.todo.ui.items.StudyCardsFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, ItemsFragment.newInstance())
+                .replace(R.id.container, StudyCardsFragment.newInstance())
                 .commitNow()
         }
     }

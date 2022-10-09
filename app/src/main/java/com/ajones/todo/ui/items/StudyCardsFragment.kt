@@ -7,14 +7,16 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.ajones.todo.R
+import dagger.hilt.android.AndroidEntryPoint
 
-class ItemsFragment : Fragment(R.layout.items_fragment) {
+@AndroidEntryPoint
+class StudyCardsFragment : Fragment(R.layout.study_cards_fragment) {
 
     companion object {
-        fun newInstance() = ItemsFragment()
+        fun newInstance() = StudyCardsFragment()
     }
 
-    private val viewModel: ItemsViewModel by viewModels()
+    private val viewModel: StudyCardsViewModel by viewModels()
 
     private lateinit var progressBar: ProgressBar
     private lateinit var message: TextView
