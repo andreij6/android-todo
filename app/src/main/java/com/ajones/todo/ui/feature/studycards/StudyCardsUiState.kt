@@ -1,4 +1,4 @@
-package com.ajones.todo.ui.items
+package com.ajones.todo.ui.feature.studycards
 
 sealed interface StudyCardsUiState
 
@@ -6,6 +6,6 @@ object Initializing : StudyCardsUiState
 object FailedState : StudyCardsUiState
 
 data class ReadyState(
-    val todoItems: List<StudyCardUi>
+    val cards: List<StudyCardUi>
 ) : StudyCardsUiState
 

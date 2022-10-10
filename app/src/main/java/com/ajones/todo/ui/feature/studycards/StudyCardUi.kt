@@ -1,4 +1,4 @@
-package com.ajones.todo.ui.items
+package com.ajones.todo.ui.feature.studycards
 
 import com.ajones.todo.domain.studycards.models.StudyCardsDomain
 

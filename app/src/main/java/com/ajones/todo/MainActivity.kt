@@ -2,7 +2,7 @@ package com.ajones.todo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ajones.todo.ui.items.StudyCardsFragment
+import com.ajones.todo.ui.feature.studycards.StudyCardsFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
